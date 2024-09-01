@@ -1,31 +1,42 @@
+/* Navigation section Completed */
 * {
     margin: 0;
     padding: 0;
+    color: #fff;
     box-sizing: border-box;
+    background-color: black;
 }
+
+
 
 .HeadTag {
     width: 100%;
     display: flex;
     padding: 10px;
+    color: #fff;
     position: fixed;
     align-items: center;
-    background: white;
     justify-content: space-between;
+    /* box-shadow: 0 5px 5px rgb(133, 113, 113); */
+}
+
+.container {
+    background-color: rgba(1, 25, 1, 0);
 }
 
 .extra {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
 }
 
 .logo {
-    color: black;
+    color: #fff;
     font-weight: 600;
     font-size: 1.7rem;
     text-decoration: none;
 }
+
+
 
 .menuIcon {
     display: none;
@@ -44,17 +55,31 @@
 }
 
 .link {
-    color: black;
+    color: #fff;
+    transition: .5s;
+    padding: 5px 8px;
     text-decoration: none;
 }
 
+.link:hover {
+    color: #0ef;
+    transition: 2s;
+    border-bottom: 2px solid #0ef;
+}
+
+.linkIc:hover {
+    padding: 7px;
+    border-radius: 20px;
+    transition: 0.7s ease-in-out;
+    background-color: rgb(242, 245, 246);
+
+}
 @media(max-width:768px) {
     .navbarTag {
         top: 100%;
         width: 100%;
         display: none;
         position: absolute;
-        background: white;
         flex-direction: column;
     }
 

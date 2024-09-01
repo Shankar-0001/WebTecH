@@ -1,9 +1,7 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from './components/home';
+import { Index } from "./components/Index";
 
 
 function App() {
@@ -11,9 +9,13 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <header>
+          <Home />
+      </header>
         <section>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='home' element={<Home />} />
+            <Route path='/' element={<Index />} />
           </Routes>
         </section>
       </BrowserRouter>
