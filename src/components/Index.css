@@ -2,10 +2,25 @@
     padding-top: 90px;
 }
 
-.index-slider-box {
+/* .index-slider-box {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(4, 37, 58, 1);
-}
+    background-color: rgb(175, 203, 220);
+} */
+/* .index-image{
+    width: 100%;
+    padding: 10px;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    max-width: fit-content;
+    justify-content: center;
+    background-position: center;
+    background-color: rgb(105, 161, 196);
+} */
 
 

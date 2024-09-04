@@ -4,7 +4,6 @@
     padding: 0;
     color: #fff;
     box-sizing: border-box;
-    background-color: black;
 }
 
 
@@ -12,16 +11,9 @@
 .HeadTag {
     width: 100%;
     display: flex;
-    padding: 10px;
     color: #fff;
-    position: fixed;
     align-items: center;
     justify-content: space-between;
-    /* box-shadow: 0 5px 5px rgb(133, 113, 113); */
-}
-
-.container {
-    background-color: rgba(1, 25, 1, 0);
 }
 
 .extra {
@@ -56,28 +48,29 @@
 
 .link {
     color: #fff;
-    transition: .5s;
+    /* transition: .5s; */
     padding: 5px 8px;
     text-decoration: none;
 }
 
 .link:hover {
-    color: #0ef;
-    transition: 2s;
-    border-bottom: 2px solid #0ef;
+    color: rgb(159, 210, 227);
+    transition: 1s;
+    border-bottom: 2px solid rgb(26, 68, 74);
 }
 
 .linkIc:hover {
     padding: 7px;
     border-radius: 20px;
     transition: 0.7s ease-in-out;
-    background-color: rgb(242, 245, 246);
+    background-color: rgb(1, 23, 16);
 
 }
 @media(max-width:768px) {
     .navbarTag {
-        top: 100%;
-        width: 100%;
+        /* top: 100%; */
+        /* width: 100%; */
+        margin-top: 30px;
         display: none;
         position: absolute;
         flex-direction: column;
